@@ -8,6 +8,7 @@ menuIcon.onclick = () => {
 };
 
 
+
 /*========== scroll sections active link ==========*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -54,21 +55,21 @@ linkedinLink.href = 'https://www.linkedin.com/in/devansh-mishraa';
 
 // Add event listeners to open the links in a new tab
 
-facebookLink.addEventListener('click', () => {
-  window.open(facebookLink.href, '_blank');
-});
-
-// twitterLink.addEventListener('click', () => {
-//   window.open(twitterLink.href, '_blank');
+// facebookLink.addEventListener('click', () => {
+//   window.open(facebookLink.href, '_blank');
 // });
 
-instagramLink.addEventListener('click', () => {
-  window.open(instagramLink.href, '_blank');
-});
+// // twitterLink.addEventListener('click', () => {
+// //   window.open(twitterLink.href, '_blank');
+// // });
 
-linkedinLink.addEventListener('click', () => {
-  window.open(linkedinLink.href, '_blank');
-});
+// instagramLink.addEventListener('click', () => {
+//   window.open(instagramLink.href, '_blank');
+// });
+
+// linkedinLink.addEventListener('click', () => {
+//   window.open(linkedinLink.href, '_blank');
+// });
 
 
 
